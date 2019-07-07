@@ -1,0 +1,17 @@
+@import "../../styles/constants.scss";
+
+.footer {
+  background: $blue;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  clear: both;
+ 
+  &__content {
+    padding-top: 5em;
+    p {
+      color: white;
+      
+    }
+  }
+}

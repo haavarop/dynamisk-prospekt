@@ -1,0 +1,100 @@
+@import "../../styles/constants.scss";
+
+.contact-form {
+  &__container {
+    max-width: 400px;
+  }
+
+  &__button {
+    width: 100%;
+    background-color: $gold-weak;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $gold;
+    }
+  }
+
+  &__radio-container {
+    padding-top: 5px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover input {
+      background-color: #ccc;
+    }
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      &:checked {
+        background-color: $gold;
+      }
+    }
+  }
+  &__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+
+    :after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+  }
+  &__radio-button {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  &__unvalid-field {
+    font-size: 12px;
+    color: red;
+  }
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-form__radio-container:hover input ~ .contact-form__checkmark {
+  background-color: #ccc;
+}
+
+.contact-form__radio-container input:checked ~ .contact-form__checkmark {
+  background-color: $gold-weak;
+}
+
+.valid {
+  border: 2px solid green !important;
+}
+
+.unvalid {
+  border: 2px solid red !important;
+}
