@@ -42,12 +42,13 @@ class ContactForm extends React.Component {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: this.encode({
-        "Contact Form": "contact",
-        "email": this.state.email,
-        "telephone": this.state.telephone,
-        "orgnumber": this.state.orgnumber,
+        "form-name": "contact",
+        email: this.state.email,
+        telephone: this.state.telephone,
+        orgnumber: this.state.orgnumber,
+        type: this.state.selectedOption,
       }),
-    }).catch(err => console.log(err));
+    }).catch(err => console.log(err))
 
     event.preventDefault()
   }
@@ -95,7 +96,13 @@ class ContactForm extends React.Component {
           Fyll inn skjemaet så tar vi kontakt med deg for en uforpliktende
           samtale.
         </p>
-        <form method="post" data-netlify="true" onSubmit={this.handleSubmit}>
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          onSubmit={this.handleSubmit}
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <label>
             E-post
             <input
@@ -146,6 +153,7 @@ class ContactForm extends React.Component {
               className="contact-form__radio-button"
               type="radio"
               value="person"
+              name="type"
               onClick={() => this.setState({ selectedOption: "person" })}
               checked={this.state.selectedOption === "person"}
               onChange={() => {}}
@@ -158,6 +166,7 @@ class ContactForm extends React.Component {
               className="contact-form__radio-button"
               type="radio"
               value="company"
+              name="type"
               onClick={() => this.setState({ selectedOption: "company" })}
               checked={this.state.selectedOption === "company"}
               onChange={() => {}}
