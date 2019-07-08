@@ -23,8 +23,13 @@ class ContactForm extends React.Component {
     })
   }
 
+  encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+  }
+
   handleSubmit = event => {
-    event.preventDefault()
     if (
       this.state.validEmail === "valid" &&
       this.state.validPhone === "valid" &&
@@ -32,6 +37,19 @@ class ContactForm extends React.Component {
     ) {
       this.setState({ formSubmitted: true })
     }
+    //Post form to Netlify
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: this.encode({
+        "Contact Form": "contact",
+        "email": this.state.email,
+        "telephone": this.state.telephone,
+        "orgnumber": this.state.orgnumber,
+      }),
+    }).catch(err => console.log(err));
+
+    event.preventDefault()
   }
 
   handleEmailBlur = () => {
