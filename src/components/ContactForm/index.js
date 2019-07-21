@@ -91,7 +91,7 @@ class ContactForm extends React.Component {
   renderForm() {
     return (
       <div className="contact-form__container">
-        <h2>Intressert? Ta kontakt!</h2>
+        <h2>Interessert? Ta kontakt!</h2>
         <p>
           Fyll inn skjemaet så tar vi kontakt med deg for en uforpliktende
           samtale.
