@@ -148,7 +148,7 @@ class ContactForm extends React.Component {
 
           <p>Representerer du en bedrift eller er du en privatperson?</p>
           <label className="contact-form__radio-container">
-            Privatperson:
+            Privatperson
             <input
               className="contact-form__radio-button"
               type="radio"
@@ -161,7 +161,7 @@ class ContactForm extends React.Component {
             <span className="contact-form__checkmark"></span>
           </label>
           <label className="contact-form__radio-container">
-            Bedrift:
+            Bedrift
             <input
               className="contact-form__radio-button"
               type="radio"
