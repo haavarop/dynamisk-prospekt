@@ -146,7 +146,7 @@ class ContactForm extends React.Component {
             </p>
           )}
 
-          <p>Representerer du et firma eller er du privatperson?</p>
+          <p>Representerer du en bedrift eller er du en privatperson?</p>
           <label className="contact-form__radio-container">
             Privatperson:
             <input
@@ -197,8 +197,8 @@ class ContactForm extends React.Component {
   renderSubmissionMessage() {
     return (
       <div className="contact-form__success-container">
-        <h3>Takk for din hendvendelse!</h3>
-        <p>Vi tar kontakt innen kort tid</p>
+        <h3>Takk for din henvendelse!</h3>
+        <p>Vi tar kontakt innen kort tid.</p>
       </div>
     )
   }
