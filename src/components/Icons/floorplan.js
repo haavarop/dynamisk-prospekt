@@ -1,0 +1,83 @@
+import React from "react"
+
+const FloorPlan = ({ width, height }) => (
+  <svg
+    width="502"
+    height="361"
+    viewBox="0 0 502 361"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="14"
+      y1="127"
+      x2="14"
+      y2="341"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="252.94"
+      y1="111"
+      x2="252.94"
+      y2="251"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="10.4487"
+      y1="58"
+      x2="10.4487"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="377.516"
+      y1="58"
+      x2="377.516"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="377.516"
+      y1="341"
+      x2="377.516"
+      y2="283"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="491.014"
+      x2="491.014"
+      y2="361"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="481.014"
+      y1="351"
+      x2="4.00003"
+      y2="351"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="494"
+      y1="10"
+      x2="16.9859"
+      y2="10"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="481.044"
+      y1="179"
+      x2="255.896"
+      y2="179"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+  </svg>
+)
+
+export default FloorPlan
