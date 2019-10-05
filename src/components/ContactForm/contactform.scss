@@ -70,6 +70,8 @@
     font-size: 12px;
     color: red;
   }
+
+
 }
 
 input[type="text"],
@@ -97,4 +99,9 @@ select {
 
 .unvalid {
   border: 2px solid red !important;
+}
+
+.submitted {
+  height: 100%;
+  padding: 5em;
 }
