@@ -26,7 +26,6 @@ const Footer = () => (
             <InstaIcon />
           </a>
         </div>
-      <div className="footer__links"></div>
     </div>
   </footer>
 )

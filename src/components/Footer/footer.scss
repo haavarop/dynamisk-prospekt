@@ -13,6 +13,7 @@
     @media only screen and (max-width: 500px) {
       padding-left: 0;
       justify-content: center;
+      flex-direction: column;
     }
   }
 
@@ -21,12 +22,20 @@
     h3 {
       color: white;
     }
+    @media only screen and (max-width: 500px) {
+      padding-left: 0;
+    }
   }
   
   &__some {
     margin-left: auto;
+    padding-right: 1em;
     svg {
       padding: 1em; 
+    }
+    @media only screen and (max-width: 500px) {
+      margin-left: 0;
+      padding-right: 0;
     }
   }
 
