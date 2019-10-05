@@ -9,10 +9,15 @@ import MAIcon from "../Icons/mittanbud"
 const Footer = () => (
   <footer className="footer">
     <div className="footer__content">
-        <LogoIcon />
+        <div class="">
+          <LogoIcon />
+        </div>
         <div className="footer__links">
           <Link to="/contact">
             <h3>Ta kontakt</h3>
+          </Link>
+          <Link to="/">
+            <h3>Startside</h3>
           </Link>
       </div>
         <div className="footer__some">
