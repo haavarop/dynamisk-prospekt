@@ -5,7 +5,7 @@ import Header from "./Header"
 import "./layout.scss"
 
 const Layout = ({ children }) => (
-  <div style={{ outline: "none" }}>
+  <div style={{ outline: "none", height: "100%" }}>
     <Helmet>
       <meta charSet="utf-8" />
       <title>Dynamisk prospekt</title>

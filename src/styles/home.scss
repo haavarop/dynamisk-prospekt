@@ -1,0 +1,16 @@
+@import "./constants.scss";
+
+.button {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 14px 20px;
+    border: 5px solid $gold;
+    border-radius: 4px;
+    cursor: pointer; 
+    margin-bottom: 1em;
+
+    &:hover {
+      background-color: $gold-weak;
+    }
+}
