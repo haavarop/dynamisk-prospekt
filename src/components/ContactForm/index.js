@@ -6,7 +6,7 @@ class ContactForm extends React.Component {
   state = {
     email: "",
     telephone: "",
-    orgnumber: "",
+    orgname: "",
     selectedOption: "",
     formSubmitted: false,
     validEmail: "empty",
@@ -45,7 +45,7 @@ class ContactForm extends React.Component {
         "form-name": "contact",
         email: this.state.email,
         telephone: this.state.telephone,
-        orgnumber: this.state.orgnumber,
+        orgname: this.state.orgname,
         type: this.state.selectedOption,
       }),
     }).catch(err => console.log(err))
@@ -176,12 +176,12 @@ class ContactForm extends React.Component {
           <p></p>
           {this.state.selectedOption === "company" && (
             <label>
-              Organiasjonsnummer
+              Bedriftnavn
               <input
                 className="contact-form__input"
                 type="text"
-                name="orgnumber"
-                value={this.state.orgnumber}
+                name="orgname"
+                value={this.state.orgname}
                 onChange={this.handleInputChange}
               />
             </label>
@@ -196,7 +196,7 @@ class ContactForm extends React.Component {
 
   renderSubmissionMessage() {
     return (
-      <div className="contact-form__success-container">
+      <div className="submitted">
         <h3>Takk for din henvendelse!</h3>
         <p>Vi tar kontakt innen kort tid.</p>
       </div>

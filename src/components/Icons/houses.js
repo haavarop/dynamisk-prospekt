@@ -1,0 +1,214 @@
+import React from "react"
+
+const HousesIcon = height => (
+  <svg
+    width="509"
+    height="368"
+    viewBox="0 0 509 368"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="328.789"
+      y1="358"
+      x2="8.99997"
+      y2="358"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="318.789"
+      y1="368"
+      x2="318.789"
+      y2="157"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="19.6316"
+      y1="367"
+      x2="19.6316"
+      y2="156"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 -0.696031 0.718011 0.696031 15.1895 177.199)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 168.895 28)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="20.3182"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 154.453 14)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 -0.696031 0.718011 0.696031 15.1895 177.199)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 168.895 28)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="20.3182"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 154.453 14)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 252.453 28)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="20.3182"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 238.01 14)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="50.7956"
+      y2="-10"
+      transform="matrix(0.718011 -0.696031 0.718011 0.696031 216.347 63.3552)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 252.453 28)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="20.3182"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 238.01 14)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="50.7956"
+      y2="-10"
+      transform="matrix(0.718011 -0.696031 0.718011 0.696031 304.032 63.3552)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="214.357"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 340.137 28)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      y1="-10"
+      x2="20.3182"
+      y2="-10"
+      transform="matrix(0.718011 0.696031 -0.718011 0.696031 325.695 14)"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="127.632"
+      y1="270"
+      x2="208.095"
+      y2="270"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="197.063"
+      y1="367"
+      x2="197.063"
+      y2="280"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="499"
+      y1="358"
+      x2="10.0316"
+      y2="358"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="138.263"
+      y1="367"
+      x2="138.263"
+      y2="280"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="128.663"
+      y1="270"
+      x2="208.095"
+      y2="270"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="198.095"
+      y1="367"
+      x2="198.095"
+      y2="280"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="404.411"
+      y1="367"
+      x2="404.411"
+      y2="156"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+    <line
+      x1="489"
+      y1="367"
+      x2="489"
+      y2="156"
+      stroke="#FCBE0C"
+      stroke-width="20"
+    />
+  </svg>
+)
+
+export default HousesIcon
