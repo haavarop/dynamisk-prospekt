@@ -15,7 +15,7 @@ export default () => (
       <div>
         <TextContainer
           header
-          title={"Redefinert fotografering av eiendom - enkelt og greit"}
+          title={"Redefinert fotografering av eiendom - enkelt og rimelig"}
         />
         <Link to="/contact">
           <button className="button">Ta Kontakt</button>
@@ -37,7 +37,7 @@ export default () => (
         textRight
         title={`Digital visning`}
         text={`Tradisjonelle fotoløsninger og plantegninger har ikke forutsetninger for å fortelle hele historien om en eiendom. 
-               Våre løsninger har det. Vi gir deg muligheten til å manøvrere deg rundt på en eiendom og se den i et som om det skulle være et dukkehus dukkehusperspektiv. Det er helt avgjørende for å forstå boligens struktur og kvalitet. `}
+               Våre løsninger har det. Vi gir deg muligheten til å manøvrere deg rundt på en eiendom og se den i et dukkehusperspektiv. Det er helt avgjørende for å forstå boligens struktur og kvalitet. `}
       />
     </Container>
     <Container>
@@ -56,8 +56,7 @@ export default () => (
       <TextContainer
         textRight
         title={`Hvordan kan våre tjenester hjelpe din bedrift?`}
-        text={`Teknologien vi tilbyr innebærer visuelle fremstilling av eiendommer 
-        som har vist seg å gi konkurransefortrinn til bedrifter verden over. 
+        text={`Teknologien vi tilbyr har vist seg å gi konkurransefortrinn til bedrifter verden over. 
         Dette er blant annet fordi: `}
         list={[
           `Vår teknologi gir dine kunder mulighet for en virtuell omvisning av eiendommer.`,
@@ -71,7 +70,6 @@ export default () => (
         textTop
         title={`Slik skaper vi verdi for din bedrift`}
         list={[
-          `Våre dynamiske prospekter fremstilles i høy oppløsning.`,
           `Dynamiske modeller gir en unik oversikt av eiendommer.`,
           `Det er mulig å integrere løsningene våre på dine nettsider.`,
           `I andre land har lignende teknologi hjulpet bedrifter å øke nettsideaktivitet betraktelig.`,
