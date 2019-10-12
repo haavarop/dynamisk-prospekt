@@ -24,7 +24,7 @@ export default () => (
       <iframe
         width={600}
         height={400}
-        src={`https://my.matterport.com/showcase-beta?m=VLNkBVFpBUT&play=1`}
+        src={`https://my.matterport.com/show/?m=otfzzqoqXwo?play=1`}
         allowFullScreen
         allow={`vr`}
         id={`showcase_iframe`}
